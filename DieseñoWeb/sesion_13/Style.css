@@ -1,0 +1,14 @@
+#parrafo{
+    background-color: green;
+    margin: 0px;
+}
+#etiqueta{
+    background-color: yellow ;
+    width: 200px;
+    float: right;
+    margin: 0px;
+}
+
+#imagen{
+    float: right;
+}

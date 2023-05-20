@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: #292828;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(5, 42, 77);
+    height: 85px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 20px;
+}
+.logo h2{
+    font-weight: 100;
+    color: white;
+}
+
+.navegador ul{
+    display: inline;
+}
+.navegador li{
+    list-style-type: none;
+    float: left;
+    padding-right: 40px;  
+}
+.navegador a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+.navegador li a:hover{
+    color: rgb(207, 193, 0);
+}

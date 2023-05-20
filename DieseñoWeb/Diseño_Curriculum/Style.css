@@ -1,0 +1,87 @@
+    body{
+        margin: 0;
+        background: #292828;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(5, 42, 77);
+        height: 85px;
+        align-items: center;
+    }
+
+    div.primera_parte{
+        background-color: white;
+        display: flex;
+        width: 1300px;
+        height: 750px;
+        margin: 20px;
+        border-radius: 35px;
+        box-shadow: 20px 20px 30px #0006;
+        background: linear-gradient(#038867, #0a4d5e);
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img{
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .logo h2{
+        font-weight: 100;
+        color: white;
+    }
+
+    .navegador ul{
+        display: inline;
+    }
+    .navegador li{
+        list-style-type: none;
+        float: left;
+        padding-right: 40px;  
+    }
+    .navegador a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600; 
+    }
+
+    .navegador li a:hover{
+        color: rgb(207, 193, 0);
+    }
+
+
+    div.presentacion img{
+        height: 700px;
+        width: 900px;
+        margin: 20px;
+    }
+
+    fieldset.contenedor01{
+        height: 682px;
+        width: 700px;
+        position: relative;
+        top: 20px;
+        left: -10px;
+    }
+    div.presentacion h3{
+        font-size: 25px;
+        width: 190px;
+        height: 100px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+        margin: 10px;
+    }
+
+    div.presentacion p{
+        text-align: justify ;
+        width: 400px;
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }

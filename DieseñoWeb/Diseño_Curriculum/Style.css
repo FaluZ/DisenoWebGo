@@ -1,6 +1,7 @@
     body{
         margin: 0;
         background: #091B2A;/*091B2A*/
+        
     }
     header{
         display: flex;
@@ -93,37 +94,56 @@
     }
 
 
-    .pie_pagina{
+    footer.pie_pagina{
         width: 100%;
+        height: 15rem;
         background: rgb(5, 42, 77);
     }
 
+
     .pie_pagina .grupo1{
-        width: 100px;
-        display:grid;
+        width: 100%;
+        height: 170px;
         
+    }
+
+    .box_nostros{
+        width: 250px;
+        position: relative;
+        top: -60px;
+        left: 550px;
     }
 
     .box_logo img{
         height: 100px;
         position: relative;
-        top: 10px;
+        top: 50px;
         left: 40px;
     }
 
-    div.redes_facebook{
+    .box_cuentas{
+        width: 200px;
+        height: 130px;
         position: relative;
-        height: 60px;
+        top: -170px;
+        left: 1100px;
     }
+
     img.face{
-        height: 60px;
+        height: 70px;
         position: relative;
-        top: -50px;
-        left: 10px;
+        top: -11px;
+        left: -35px;
     }
     img.insta{
-        height: 60px;
+        height: 70px;
         position: relative;
-        top: -90px;
-        left: 90px;
+        top: -100px;
+        left: 50px;
+    }
+
+    div.grupo2{
+        text-align: right;
+        position: relative;
+        top: 30px;
     }

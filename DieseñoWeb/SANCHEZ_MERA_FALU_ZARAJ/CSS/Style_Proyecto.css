@@ -1,0 +1,226 @@
+body{
+    background: #091B2A;
+    margin: 0;
+    width: 100%;
+}   
+header{
+    height: 13rem;
+    background: rgb(5, 42, 77);
+    display: flex;
+
+}
+.enlaces ul{
+    width: 550px;
+    align-items: baseline;
+}
+.enlaces li{
+    display: inline;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+}
+.enlaces li a{
+    color: rgb(187, 59, 12);
+    text-decoration: none;
+}
+.enlaces li a:hover{
+    color: rgb(207, 193, 0);
+}
+.imagen img{
+    height: 130px;
+    margin-right: 15px;
+    position: relative;
+    top: 55px;    
+    left: -500px;
+    border: 1px solid black;
+}
+
+.nombre h1{
+    width: 590px;
+    position: relative;
+    top: 40px;
+    left: -10px;
+    font-size: 3rem;
+    color: gold;
+}
+.nombre h2{
+    position: relative;
+    top: 30px;
+    left: -10px;
+    font-size: 2rem;
+    color: gold;
+}
+
+div.section{
+    width: 60rem;
+    height: 50rem;
+    background-color: white;
+    position: relative;
+    left: 10rem;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.4);
+}
+.titulo h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.linea1{
+    border: 1px solid chocolate;
+    max-width: 200px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+}
+
+div.contenido{
+    height: 700px;
+}
+.proyecto_curriculum{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.v_line{
+    border-left: 2px solid  chocolate;
+    height:400px;
+    position: absolute;
+    top: 110px;
+    left: 480px;
+}
+
+.proyecto_cuadro{
+    position: relative;
+    top: -57px;
+    left: 540px;
+}
+
+.proyecto_formulario{
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+.proyecto_posicionamiento{
+    position: relative;
+    top: -105px;
+    left: 540px;
+}
+.static{
+    position: relative;
+    top: 20px;
+    left: -1px;
+}
+.relative{
+    position: relative;
+    top: -58px;
+    left: 220px;
+}
+.absolute{
+    position: relative;
+    top: -58px;
+    left: 220px;
+}
+.fixed{
+    position: relative;
+    top: -135px;
+    left: -1px;
+}
+.float{
+    position: relative;
+    top: -120px;
+    left: -1px;
+}
+.ultima_noticia{
+    position: relative;
+    top: -200px;
+    left: 220px;
+}
+
+.proyecto_responsivo{
+    position: relative;
+    top: -500px;
+    left: 100px;
+}
+
+
+footer{
+    background: rgb(5, 42, 77);
+    height: 300px;
+}
+
+.primera_pie{
+    width: 380px;
+    height: 200px;
+}
+.segundo_pie{
+    width: 380px;
+    height: 200px;
+    position: relative;
+    top: -216px;
+    left: 480px;
+}
+.redes_so{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -415px;
+    left: 1100px;
+}
+
+.imagen_pie{
+    width: 180px;
+}
+.imagen_pie img{
+    height: 150px;  
+    position: relative;
+    top: 10px;
+}
+
+.datos_per{
+    position: relative;
+    top: -160px;
+    left: 200px;
+    font-size: 1.5rem;
+}
+
+
+.menu_nav ul{
+   position: relative;
+   top: 30px;
+   left: 0px;
+   font-size: 1.3rem; 
+} 
+.menu_nav ul a{
+    text-decoration: none;  
+}
+.enla_interes li{
+    position: relative;
+    top: -85px;
+    left: 190px;
+    font-size: 1.3rem;
+    
+} 
+.enla_interes li a{
+    text-decoration: none;  
+}
+
+.facebook img{
+    height: 60px;
+    position: relative;
+    top: 40px;
+
+}
+.instagram img{
+    height: 60px;
+    position: relative;
+    top: -23px;
+    left: 90px;
+}
+
+.copy{
+    width: 280px;
+    text-align: right;
+    position: relative;
+    top: 130px;
+    left: -50px;    
+}

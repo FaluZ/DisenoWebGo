@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #091B2A;/*#292828*/
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(5, 42, 77);
+    height: 85px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 15px;
+}
+.logo h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+.navegador ul{
+    display: inline;
+}
+.navegador li{
+    list-style-type: none;
+    float: left;
+    padding-right: 40px;  
+}
+.navegador a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+.navegador li a:hover{
+    color: rgb(207, 193, 0);
+}
+
+div.nombre{
+    width: 95%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+}
+
+div.datos_generales{
+    width: 95%;
+    height:400px;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+}
+div.alum_univeritario{
+    width: 95%;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+}
+
+div.titulo_no{
+    font-size: 3rem;
+    color: goldenrod;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+ h4{
+    width: 5rem;
+    background-color: grey;
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+}
+
+div.name label{
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+
+div.name h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top: -3rem;
+    left: 9rem;
+}
+div.apellido_p label{
+    font-size: 2rem;
+    position: relative;
+    top: -8rem;
+    left: 21rem;
+}
+
+div.apellido_p h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top:-13rem;
+    left: 37rem;
+}
+
+div.apellido_m label{
+    font-size: 2rem;
+    position: relative;
+    top: -18rem;
+    left: 49rem;
+}
+div.apellido_m h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top:-23.1rem;
+    left: 64rem;
+}
+
+div.titulo_gen{
+    font-size: 3rem;
+    color: goldenrod;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+div.edad label{
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+div.edad h4{
+    width: 6rem;
+    font-size: 2rem;
+    position: relative;
+    top:-3rem;
+    left: 7rem;
+}
+
+div.nacimiento label{
+    font-size: 2rem;
+    position: relative;
+    top: -8rem;
+    left: 15rem;
+}
+div.nacimiento h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top:-13rem;
+    left: 34rem;
+}
+
+div.telefono label{
+    font-size: 2rem;
+    position: relative;
+    top: -18rem;
+    left: 45rem;
+}
+div.telefono h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top:-23.1rem;
+    left: 63rem;
+}
+div.dni label{
+    font-size: 2rem;
+    position: relative;
+    top: -22rem;
+    left: 1rem;
+}
+div.dni h4{
+    width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    top:-27rem;
+    left: 7rem;
+}
+
+div.recidencia label{
+    font-size: 2rem;
+    position: relative;
+    top: -32rem;
+    left: 18rem;
+}
+div.recidencia h4{
+    width: 39rem;
+    font-size: 30px;
+    position: relative;
+    top:-36.8rem;
+    left: 34rem;
+    text-align: left;
+}
+
+div.email label{
+    font-size: 2rem;
+    position: relative;
+    top: -36rem;
+    left: 8rem;
+}
+div.email h4{
+    width: 20rem;
+    font-size: 30px;
+    position: relative;
+    top:-40.7rem;
+    left: 15rem;
+    text-align: left;
+}
+
+div.sexo label{
+    font-size: 2rem;
+    position: relative;
+    top: -45.5rem;
+    left: 37rem;
+}
+div.sexo h4{
+    width: 10rem;
+    font-size: 30px;
+    position: relative;
+    top: -50.2rem;
+    left: 45rem;
+    text-align: left;
+}
+
+div.titulo_uni{
+    font-size: 3rem;
+    color: goldenrod;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+div.grado_pre label{
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+div.grado_pre h4{
+    width: 10rem;
+    font-size: 30px;
+    position: relative;
+    top: -2.7rem;
+    left: 20rem;
+    text-align: center;
+}
+
+div.universidad label{
+    font-size: 2rem;
+    position: relative;
+    top: -3rem;
+    left: 1rem;
+}
+div.universidad h4{
+    width: 41rem;
+    font-size: 30px;
+    position: relative;
+    top: -7.5rem;
+    left: 26rem;
+    text-align: left;
+}
+
+div.ciclo label{
+    font-size: 2rem;
+    position: relative;
+    top: -17.1rem;
+    left: 32rem;
+}
+div.ciclo h4{
+    width: 20rem;
+    font-size: 30px;
+    position: relative;
+    top: -21.8rem;
+    left: 48rem;
+    text-align: center;
+}
+
+div.curso label{
+    font-size: 2rem;
+    position: relative;
+    top: -17.5rem;
+    left: 22rem;
+}
+div.curso h4{
+    width: 20rem;
+    font-size: 30px;
+    position: relative;
+    top: -22.2rem;
+    left: 38rem;
+    text-align: center;
+}
+
+/*PIE DE PÁGINA*/
+footer.pie_pagina{
+    width: 100%;
+    height: 16.8rem;
+    background: rgb(5, 42, 77);
+    position: relative;
+    top: 130px;
+}
+
+
+.pie_pagina .grupo1{
+    width: 100%;
+    height: 170px;
+    
+}
+
+.box_nostros{
+    width: 250px;
+    position: relative;
+    top: -60px;
+    left: 550px;
+}
+
+.box_logo img{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.box_cuentas{
+    width: 200px;
+    height: 130px;
+    position: relative;
+    top: -170px;
+    left: 1100px;
+}
+
+img.face{
+    height: 70px;
+    position: relative;
+    top: -11px;
+    left: -35px;
+}
+img.insta{
+    height: 70px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+
+div.grupo2{
+    text-align: right;
+    position: relative;
+    top: 70px;
+    left: -10px;
+}

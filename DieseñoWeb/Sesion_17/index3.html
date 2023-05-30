@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index3.css">
+    <title>Productos</title>
+</head>
+<body>
+    <h1>Seleccione un producto</h1>
+    <select id="productoSelect" onchange="mostrarDescripcion()"> <!--onchange es para mostrar un evento-->
+        <option value="">Seleccionar</option>
+        <option value="laptop">Laptop</option>
+        <option value="telefono">Telefono</option>
+        <option value="tableta">Tablet</option>
+    </select>
+
+    <div>
+        <img id="productoImagen" src="" alt="">
+        <p id="productoDescripcion"></p>
+    </div>
+    <script src="js/index3.js"></script>
+</body>
+</html>

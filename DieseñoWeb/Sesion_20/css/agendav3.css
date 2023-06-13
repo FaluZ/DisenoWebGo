@@ -1,0 +1,39 @@
+.datosEntrada{
+    width: 430px;
+    margin: auto;
+    background-color: bisque;
+    padding-left: 10px;
+    font-family: Calibri;
+    border: 1px solid;
+}
+
+input{
+    margin: 10px;
+}
+
+label.p{
+    margin-left: 15px;
+}
+div hr{
+    color: rgb(247, 0, 0);
+}
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+.titu{
+    background-color: aquamarine;
+}
+.nom{
+    background-color: azure;
+}
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}

@@ -1,0 +1,28 @@
+.bandera{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.bandera div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: red;
+    font-weight: bold;
+    font-size: 24px ;
+}
+/*Pseudo Elementos*/
+.bandera::before, .bandera::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background-color: red;
+    width: 100px;
+}
+.bandera::after{
+    right: 0px;
+}

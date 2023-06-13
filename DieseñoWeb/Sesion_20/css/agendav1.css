@@ -1,0 +1,14 @@
+.datosEntrada{
+    width: 40%;
+    margin: auto;
+    background-color: bisque;
+}
+
+input{
+    display: block;
+    margin: 20px;
+}
+
+label.p{
+    margin-left: 15px;
+}

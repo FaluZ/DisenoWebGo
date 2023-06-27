@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda Modals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+
+    <!-- Barra superior -->
+    <div class="container-fluid"><!--se usa para crear un contenedor sin márgenes-->
+        <div class="row py-1 px-xl-5">
+            <div class="col-lg-6 d-none d-lg-block">
+                <!--nav& tabs
+                    https://getbootstrap.com/docs/5.3/components/navs-tabs/ 
+                    codigo del primer Nav&tab -->
+
+                <!--underline
+                    https://getbootstrap.com/docs/5.3/components/navs-tabs/#underline 
+                    agregar linea para detectar linea activa-->
+
+                <!--visible solo en md
+                    https://getbootstrap.com/docs/5.3/utilities/display/#hiding-elements -->
+
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">ACERCA DE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CONTACTOS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">AYUDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PACKS</a>
+                          </li>
+                      </ul>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right ">
+                <div class="d-inline-flex align-items-center">
+                    <!-- Pill con dropdown
+                    https://getbootstrap.com/docs/5.3/components/navs-tabs/#pills-with-dropdowns
+                    usar la parte de dropdown-->
+
+                    <!--colocar menu en vertical
+                    https://getbootstrap.com/docs/5.3/components/navs-tabs/#vertical -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MI CUENTA</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">REGISTRO</a></li>
+                              <li><a class="dropdown-item" href="#">INICIO SESIÓN</a></li>
+                              <li><a class="dropdown-item" href="#">CAMBIAR USUARIO</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">CERRAR SESIÓN</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MONEDA</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">EURO</a></li>
+                              <li><a class="dropdown-item" href="#">PEN</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">IDIOMA</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">ESPAÑOL</a></li>
+                              <li><a class="dropdown-item" href="#">INGLES</a></li>
+                              <li><a class="dropdown-item" href="#">FRANCES</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3 ">
+            <!-- aca va marca logotipo -->
+            <div class="col-6 col-lg-4">
+                <span class="h1 text-uppercase text-primary bg-dark">TIENDAS</span>
+                <span class="h1 text-uppercase text-dark bg-primary">MODALS</span>
+            </div>
+
+            <div class="col-6 col-lg-4 text-left">
+                <!--formulario de búsqueda
+                https://getbootstrap.com/docs/5.3/components/navbar/#forms 
+                agregar CDN font awesome
+                cambiar buscar por una lupa -->
+                <nav class="navbar bg-body-tertiary py-0">
+                    <div class="container-fluid bg-white">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="buscar producto" aria-label="loop">
+                        <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-lg-4 d-none d-sm-none d-md-none d-lg-block ">
+                <!--visibilidad de los bloques
+                    https://getbootstrap.com/docs/5.3/utilities/display/#hiding-elements -->
+                    <p class="mb-0">Servicio al Cliente</p>
+                    <h5 class="mb-0">+051 74-569854</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Barra de navegación -->
+    <div class="container-fluid bg-dark py-3">
+        <div class="row px-xl-5 d-flex">
+            <div class="col-lg-2 d-none d-lg-block">
+                <!--agregar un dropdown simple - dropdown link
+                    https://getbootstrap.com/docs/5.3/components/dropdowns/#single-button -->
+                    <div class="dropdown">
+                        </i><button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-sharp fa-solid fa-bars text-white"></i>
+                          Categoria
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                          <li><a class="dropdown-item" href="#">Shores</a></li>
+                          <li><a class="dropdown-item" href="#">Camisas</a></li>
+                          <li><a class="dropdown-item" href="#">Poleras</a></li>
+                          <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+                        </ul>
+                      </div>
+
+            </div>
+            <div class="col-lg-8">
+                <!-- agregar nav bar, uno con dropdown
+                    https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
+
+                <!-- cambiar barra a fondo negro
+                    https://getbootstrap.com/docs/5.3/components/navbar/#color-schemes -->
+
+                <!-- al final agregar los badges, dentro del Nav. no agregar en boton, sino en un div
+                     https://getbootstrap.com/docs/5.3/components/badge/ -->
+
+                <!-- cambiar el color del boton
+                     https://getbootstrap.com/docs/5.3/components/buttons/ -->
+                     <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 bg-primary">
+                        <div class="container-fluid  bg-dark">
+                          <a class="navbar-brand text-white" href="#">INICIO</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link disabled text-primary" aria-current="page" href="#">Tienda</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MI CUENTA</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">REGISTRO</a></li>
+                                  <li><a class="dropdown-item" href="#">INICIO SESIÓN</a></li>
+                                  <li><a class="dropdown-item" href="#">CAMBIAR USUARIO</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">CERRAR SESIÓN</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item text-pr">
+                                <a class="nav-link disabled text-primary">Disabled</a>
+                              </li>
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </nav>
+            </div>
+            <div class="col-lg-2">
+                <span class="badge text-bg-secondary">+</span>
+                <span class="badge text-bg-secondary">2</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container-fluid my-3">
+        <div class="row px-xl-2">
+            <div class="col-lg-8">
+                <!-- insertar carousel caption 
+                https://getbootstrap.com/docs/5.3/components/carousel/#captions -->
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://modaellos.com/wp-content/uploads/2017/11/Foto-consejos-modelo-hombre-hipster-istock-600x400.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://phantom-telva.unidadeditorial.es/d203674cc54fda93a21c105991fcc66b/crop/0x82/1000x683/resize/828/f/jpg/assets/multimedia/imagenes/2019/11/13/15736612632199.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://img.freepik.com/fotos-premium/modelos-caminan-pasarela-ropa-disenador-desfile-modas_124507-42062.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-3">
+                <!-- insertar un Card
+                https://getbootstrap.com/docs/5.3/components/card/#example -->
+
+                <!-- Hacer que elementos se sobrepongan
+                https://getbootstrap.com/docs/5.3/components/card/#image-overlays -->
+                
+                <div class="card text-bg-dark ms-3 mb-4">
+                    <img id="im2" src="https://cursosmasters.com/wp-content/uploads/2022/04/requisitos-modelos-masculinos.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay align-items-center">
+                      <p class="card-text">AHORA 20%</p>
+                      <h5 class="card-title">OFERTA ESPECIAL</h5>
+                      <a href="#" class="btn btn-primary">compra ahora</a>
+                    </div>
+                </div>
+                <div class="card text-bg-dark ms-3">
+                    <img id="im3" src="https://img.freepik.com/fotos-premium/chica-modelo-ropa-moda-foto-moda-ropa-lujo-estilo-callejero-aspecto-elegante_265223-34293.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay align-items-center">
+                      <p class="card-text">AHORA 20%</p>
+                      <h5 class="card-title">OFERTA ESPECIAL</h5>
+                      <a href="#" class="btn btn-primary">compra ahora</a>
+                    </div>
+                </div>
+                  
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Presentación -->
+    <div class="container-fluid pt-2">
+        <div class="row px-xl-5 pb-3">
+            <div class="col-sm-6 col-md-3">
+                <!-- insertar tarjetas horizontales, editar img por font awesome
+                https://getbootstrap.com/docs/5.3/components/card/#horizontal -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="https://www.pngplay.com/wp-content/uploads/12/Check-Mark-Tick-Transparent-File.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CALIDAD GARANTIZADA</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="https://w7.pngwing.com/pngs/849/86/png-transparent-van-car-computer-icons-pickup-truck-couriers-and-delivery-vehicles-van-text-truck.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CALIDAD GARANTIZADA</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="https://www.pngplay.com/wp-content/uploads/12/Check-Mark-Tick-Transparent-File.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CALIDAD GARANTIZADA</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="https://www.pngplay.com/wp-content/uploads/12/Check-Mark-Tick-Transparent-File.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CALIDAD GARANTIZADA</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Productos -->
+    <div class="container-fluid py-2">
+        <!-- insertar caja con borde inferior para el título.
+            https://getbootstrap.com/docs/5.3/utilities/borders/#color -->
+
+        <div class="row px-xl-5">
+            <!-- insertar 8 card grid. el que tiene espacio para un footer. ,  
+                https://getbootstrap.com/docs/5.3/components/card/#grid-cards -->
+
+            <!-- agregar botón tipo enlace dentro del card
+                https://getbootstrap.com/docs/5.3/components/buttons/#button-tags -->
+
+
+        </div>
+    </div>
+    
+    <!-- Pie de página -->
+    <div class="my-5">
+
+        <!-- insertar pie de página
+        https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/ -->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

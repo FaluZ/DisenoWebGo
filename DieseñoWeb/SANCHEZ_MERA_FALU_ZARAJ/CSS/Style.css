@@ -1,0 +1,227 @@
+body{
+    background: #091B2A;
+    margin: 0;
+    width: 100%;
+}   
+header{
+    height: 13rem;
+    background: rgb(5, 42, 77);
+    display: flex;
+    lign-items: center;
+
+}
+.enlaces ul{
+    width: 550px;
+    align-items: baseline;
+}
+.enlaces li{
+    display: inline;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+}
+.enlaces li a{
+    color: rgb(187, 59, 12);
+    text-decoration: none;
+}
+.enlaces li a:hover{
+    color: rgb(207, 193, 0);
+}
+div.imagen{
+    height: 132px;
+    position: relative;
+    top: 60px;
+    left: -30rem;
+}
+.imagen img{
+    height: 130px;
+    border: 1px solid black;
+}
+
+.nombre{
+    width: 100%;
+    position: relative;
+    left: -30px;
+}
+
+.nombre h1{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: -10px;
+    font-size: 3rem;
+    color: gold;
+}
+.nombre h2{
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: -10px;
+    font-size: 2rem;
+    color: gold;
+}
+
+main{
+    width: 100%;
+    height: 810px;
+    position: relative;
+    top: 20px;
+}
+
+.articulo1{
+    background: white;
+    width: 1300px;
+    height: 15rem;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.articulo1 h3{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 50px;    
+}
+.articulo1 p{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 48px;
+}
+
+.articulo2{
+    width: 900px;
+    height: 25rem;
+    background: white;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+.articulo2 h3{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+.articulo2 p{
+    text-align: justify;
+    width: 800px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.cambio {
+    width: 370px;
+    height: 400px;
+    background: white;
+    position: relative;
+    top: -420px;
+    left: 950px;
+    margin: 0px;
+}
+.cambio h3{
+    font-size: 1.5rem;
+    position: relative;
+    top: 35px;
+    left: 40px;
+}
+.cambio li {
+    list-style-type: none;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.cambio li a{
+    text-decoration: none;
+    color: rgb(187, 59, 12);
+}
+.cambio li a:hover{
+    color: rgb(61, 57, 2);
+}
+
+footer{
+    width: 100%;
+    background: rgb(5, 42, 77);
+    height: 300px;
+}
+
+.primera_pie{
+    width: 380px;
+    height: 200px;
+}
+.segundo_pie{
+    width: 380px;
+    height: 200px;
+    position: relative;
+    top: -216px;
+    left: 480px;
+}
+.redes_so{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -415px;
+    left: 1100px;
+}
+
+.imagen_pie{
+    width: 180px;
+}
+.imagen_pie img{
+    height: 150px;  
+    position: relative;
+    top: 10px;
+}
+
+.datos_per{
+    position: relative;
+    top: -160px;
+    left: 200px;
+    font-size: 1.5rem;
+}
+
+
+.menu_nav ul{
+   position: relative;
+   top: 30px;
+   left: 0px;
+   font-size: 1.3rem; 
+} 
+.menu_nav ul a{
+    text-decoration: none;  
+}
+.enla_interes li{
+    position: relative;
+    top: -85px;
+    left: 190px;
+    font-size: 1.3rem;
+    
+} 
+.enla_interes li a{
+    text-decoration: none;  
+}
+
+.facebook img{
+    height: 60px;
+    position: relative;
+    top: 40px;
+
+}
+.instagram img{
+    height: 60px;
+    position: relative;
+    top: -23px;
+    left: 90px;
+}
+
+.copy{
+    width: 280px;
+    text-align: right;
+    position: relative;
+    top: 130px;
+    left: -50px;    
+}

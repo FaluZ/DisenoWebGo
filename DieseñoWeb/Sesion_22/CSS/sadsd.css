@@ -1,0 +1,28 @@
+body{
+    background-image: url(../img/unnamed.png);
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: #e63946;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes move {
+    0% { 
+      clip-path: polygon(50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+    }
+    10% {
+      clip-path: polygon(50% 0%, 62% 35%, 100% 35%, 68% 57%, 75% 92%, 50% 70%, 25% 92%, 32% 57%, 0% 35%, 38% 35%);
+    }
+    90% {
+      clip-path: polygon(50% 0%, 85% 25%, 85% 75%, 50% 100%, 15% 75%, 15% 25%);
+    }
+    100% {
+      clip-path: polygon(50% 0%, 88% 12%, 100% 42%, 88% 88%, 50% 100%, 12% 88%, 0% 58%, 12% 12%);
+    }
+  }

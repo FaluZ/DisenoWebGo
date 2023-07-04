@@ -1,0 +1,36 @@
+/*Pseudo Elementos*/
+.parrafo::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+}
+
+.seudoEle{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+.seudoEle::before{
+    content: 'hola';
+    background-color: red ;
+}
+.seudoEle::after{
+    content: 'Perú';
+    background-color: red;
+}
+/*PseudoClases*/
+div:hover{
+    background-color: yellow;
+}
+p:hover{
+    background-color: aqua;
+}
+
+/*Solo selector <a>*/
+a:focus{
+    color: green;
+}
+a:active{
+    color: hotpink;
+}

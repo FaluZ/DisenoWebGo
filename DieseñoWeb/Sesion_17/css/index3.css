@@ -1,0 +1,9 @@
+body{
+    font-family: Arial;
+    color: rgb(83, 75, 192);
+}
+#productoImagen{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}

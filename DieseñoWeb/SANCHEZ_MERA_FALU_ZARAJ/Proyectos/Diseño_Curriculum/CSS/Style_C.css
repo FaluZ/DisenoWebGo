@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background: #091B2A;/*091B2A*/
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(5, 42, 77);
+    height: 85px;
+    align-items: center;
+}
+
+div.primera_parte{
+    background-color: white;
+    display: flex;
+    width: 1300px;
+    height: 725px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+    /*background: linear-gradient(#F24B27, #F24B27);*/
+    background: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 15px;
+}
+
+.logo h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+.navegador ul{
+    display: inline;
+}
+.navegador li{
+    list-style-type: none;
+    float: left;
+    padding-right: 40px;  
+}
+.navegador a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+.navegador li a:hover{
+    color: rgb(207, 193, 0);
+}
+
+div.cuadro_contacto{
+    width: 1000px;
+    height: 550px;
+    border: 2px solid black ;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    background-color: rgb(233, 176, 71);
+}
+
+div.cuadro_contacto  label{
+    font-size: 1.5rem;
+    position: relative;
+    top: 2px;
+}
+div.cuadro_contacto .texto{
+    height: 30px;
+    width: 600px;
+    position: relative;
+    top: 2px;
+}
+
+textarea{
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+div.enviar .envi{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 450px;
+    color: white;
+    background-color: rgb(160, 157, 11);
+}
+footer{
+    width: 100%;
+    height: 16.8rem;
+    background: rgb(5, 42, 77);
+}
+
+
+.pie_pagina .grupo1{
+    width: 100%;
+    height: 170px;
+    
+}
+
+.box_nostros{
+    width: 250px;
+    position: relative;
+    top: -60px;
+    left: 550px;
+}
+
+.box_logo img{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.box_cuentas{
+    width: 200px;
+    height: 130px;
+    position: relative;
+    top: -170px;
+    left: 1100px;
+}
+
+img.face{
+    height: 70px;
+    position: relative;
+    top: -11px;
+    left: -35px;
+}
+img.insta{
+    height: 70px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+
+div.grupo2{
+    text-align: right;
+    position: relative;
+    top: 75px;
+    left: -10px;
+}

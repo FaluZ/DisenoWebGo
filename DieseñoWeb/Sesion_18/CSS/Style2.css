@@ -1,0 +1,16 @@
+body{
+    border: 2px solid black ;
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 400px;
+}
+div.bloque{
+    border: 1px solid chocolate;
+    background: rgb(211, 97, 97);
+    width: 150px;
+}
+button#cb1{
+    height: 20x;
+    width: 200px;
+}

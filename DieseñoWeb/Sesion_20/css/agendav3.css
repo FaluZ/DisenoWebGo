@@ -1,0 +1,62 @@
+.datosEntrada{
+    width: 42rem;
+    margin: auto;
+    background-color: rgb(238, 178, 104);
+    padding-left: 10px;
+    font-family: Calibri;
+    border: 1px solid;
+}
+
+h2{
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+    margin-left: 4rem;
+}
+
+label.p{
+    margin-left: 15px;
+}
+div hr{
+    color: rgb(247, 0, 0);
+}
+span.one{
+    margin-left: 7rem ;
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4rem;
+}
+
+.titu{
+    background: rgb(209, 104, 104);
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 1.75rem;
+
+}
+.titu2{
+    background: rgb(209, 104, 104);
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 1.75rem;
+}
+.nom{
+    background-color: azure;
+    margin: 1rem;
+}
+li{
+    list-style: none;
+    display: block;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+ul{
+    margin: 0px;
+    padding-left: 0.05rem;
+}

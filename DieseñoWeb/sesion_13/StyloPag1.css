@@ -1,0 +1,10 @@
+p , strong{
+    border: 1px solid;
+    width: 20%;
+}
+
+p#caja{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}

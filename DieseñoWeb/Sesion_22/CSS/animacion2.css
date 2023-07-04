@@ -1,0 +1,36 @@
+div{ 
+    padding: .2rem .3rem 1rem  .3rem;
+    color: white;
+    background-color: blueviolet;
+    position: absolute;
+/*Absolute no reserva un espacio y te permite mover contenedores, esto es para que te permita recorre el pacman sin que se reserve algun espacio*/
+    border-radius: 2rem 2rem 0 0;
+    animation: animar 5s infinite;
+}
+@keyframes animar{ /*imagen de fondo de pacman, hacer que se mueva mas lejos, que tenga mas recorrido*/
+    0%{ 
+        left:0;
+        top: 0;
+    }
+    10%{ 
+        left: 5rem;
+        top: 0rem;
+        color: blueviolet;
+       }
+    30%{ 
+        left: 5rem;
+        top: 5rem;
+        color: white;
+    }
+    60%{ 
+        left: 5rem;
+        top: 5rem;
+        color: blueviolet;
+    }
+    100%{ 
+        left:0;
+        top: 0;
+    }
+
+
+ }

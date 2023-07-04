@@ -1,0 +1,13 @@
+.datosEntrada{
+        width: 40%;
+        margin: auto;
+        background: rgb(120, 158, 103);
+}
+
+input{
+    display: block;
+    margin: 20px;
+}
+label,p{
+    margin-left: 20px;
+}

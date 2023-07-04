@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Formulario</title>
+</head>
+<body>
+    <article>
+        <center>
+        <h2>ENCUENTA LABORAR</h2>
+        <div id="Contenedor" style="width:500px">
+            <form id="Formulario1" name="Formulario1" method="post" action="data.php">
+                <fieldset id="Datos Laborales">
+                    <legend>Datos laborales</legend>
+                        <label>Nombre y Apellidos</label>
+                        <input type="text">
+                        <br>
+                        <br>
+                        <label>Dirección</label>
+                        <input type="text">
+                        <br>
+                        <br>
+                        <label>Telef|Cef.</label>
+                        <input type="text">
+                        <br>
+                        <br>
+                        <label>Fecha Ingreso</label>
+                        <select name="FechaIngreso">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label>DNI</label>
+                        <input type="text">
+                        <br>
+                        <br>
+                        <label>Email</label>
+                        <input type="text">
+                    </fieldset>
+            </form>
+            <br>
+            <form action="Formulario2" name="Formulario2" method="post" action="data.php">
+                <fieldset id="Esado Civil">
+                    <legend>Estado Civil</legend>
+                    <input type="radio" name="Opciones" id="Soltero"> <label for="Soltero">Soltero</label>
+                    <br>
+                    <input type="radio" name="Opciones" id="Casado"> <label for="Casado">Casado</label>
+                    <br>
+                    <input type="radio" name="Opciones" id="Divorsiado"> <label for="Divorsiado">Divorsiado</label>
+                    
+                </fieldset>
+            </form>
+            <br>
+            <form action="Formulario3" name="Formulario3" method="post" action="data.php">
+                <fieldset id="Nivel de Satisfacción">
+                    <legend>Nivel de Satisfacción</legend>
+                    <input type="checkbox" name="Opciones" id="Satisfecho"> <label for="Satisfecho">Se siente satisfecho con el trabajo que realiza</label>
+                    <br>
+                    <input type="checkbox" name="Opciones" id="Adecuados"> <label for="Adecuados">Los canales de comuniación son adecuados</label>
+                    <br>
+                    <input type="checkbox" name="Opciones" id="Ambiente"> <label for="Ambiente">El ambiente laboral es el adecuado para mi trabajo</label>
+                    <br>
+                    <input type="checkbox" name="Opciones" id="Satisfecho"> <label for="Satisfecho">Se siente satisfecho con el trabajo que realiza</label>
+                    
+                </fieldset>
+            </form>
+            <br>
+            <form action="Formulario4" name="Formulario4" method="post" action="data.php">
+                <fieldset id="Observaciones">
+                    <legend>Observaciones</legend>
+                    <textarea name="observ" id="observ" cols="50" rows="5"></textarea>
+                 </fieldset>
+            </form>
+            <br>
+            <input type="button" value="Nuevo">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit">
+         </div>
+      </center>
+    </article>
+</body>
+</html>
